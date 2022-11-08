@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    article {
+      height: 150px;
+      margin: 50px;
+      outline: solid 5px #ccc;
+
+      /* 声明内联级弹性盒子 */
+      display: inline-flex;
+
+      padding: 20px;
+    }
+
+    /* article 下的所有 div 都是弹性盒子的布局 */
+    article div {
+      margin: 5px;
+      border: 1px solid #333;
+      text-align: center;
+      font-size: 28px;
+      line-height: 5em;
+      width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <article>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </article>
+</body>
+
+</html>
